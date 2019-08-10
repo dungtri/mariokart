@@ -4,7 +4,7 @@ ARG arch=arm
 ENV ARCH=$arch
 
 WORKDIR /usr/src/app
-COPY Source/ .
+COPY public_html/ .
 COPY nodeserver.js .
 
 EXPOSE 8888
